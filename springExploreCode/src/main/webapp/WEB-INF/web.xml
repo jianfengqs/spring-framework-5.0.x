@@ -1,0 +1,37 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <!--<display-name>Archetype Created Web Application</display-name>
+
+  <servlet>
+    <servlet-name>mvc</servlet-name>
+    <servlet-class>com.liyueze.mvcFrameworkCode.v1.servlet.DispatcherServletV1</servlet-class>
+    <init-param>
+      <param-name>contextConfigLocation</param-name>
+      <param-value>classpath*:application.properties</param-value>
+    </init-param>
+    <load-on-startup>1</load-on-startup>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>mvc</servlet-name>
+    <url-pattern>/*</url-pattern>
+  </servlet-mapping>-->
+
+  <servlet>
+    <servlet-name>mySpringV2</servlet-name>
+    <servlet-class>com.liyueze.mvcFrameworkCode.v2.springmvn.servlet.DispatcherServlet</servlet-class>
+    <init-param>
+      <param-name>contextConfigLocation</param-name>
+      <param-value>classpath:applicationV2.properties</param-value>
+    </init-param>
+    <load-on-startup>1</load-on-startup>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>mySpringV2</servlet-name>
+    <url-pattern>/*</url-pattern>
+  </servlet-mapping>
+</web-app>
